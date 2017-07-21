@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/DateTime.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/DateTime.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/DateTime.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/DecayedException.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/DecayedException.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/DecayedException.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/Eci.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Eci.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/Eci.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/Globals.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Globals.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/Globals.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/Observer.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Observer.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/Observer.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/OrbitalElements.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/OrbitalElements.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/OrbitalElements.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/SGP4.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/SGP4.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/SGP4.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/SatelliteException.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/SatelliteException.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/SatelliteException.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/SolarPosition.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/SolarPosition.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/SolarPosition.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/TimeSpan.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/TimeSpan.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/TimeSpan.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/Tle.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Tle.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/Tle.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/TleException.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/TleException.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/TleException.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/Util.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Util.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/Util.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/libsgp4",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sgp4.dir/Vector.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Vector.cpp",
+  "file": "/home/farshad/Documents/sgp4/libsgp4/Vector.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/sattrack",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/sattrack.dir/sattrack.cpp.o -c /home/farshad/Documents/sgp4/sattrack/sattrack.cpp",
+  "file": "/home/farshad/Documents/sgp4/sattrack/sattrack.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/runtest",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/runtest.dir/runtest.cpp.o -c /home/farshad/Documents/sgp4/runtest/runtest.cpp",
+  "file": "/home/farshad/Documents/sgp4/runtest/runtest.cpp"
+},
+{
+  "directory": "/home/farshad/Documents/sgp4/passpredict",
+  "command": "/usr/bin/c++    -I/home/farshad/Documents/sgp4/libsgp4   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion   -o CMakeFiles/passpredict.dir/passpredict.cpp.o -c /home/farshad/Documents/sgp4/passpredict/passpredict.cpp",
+  "file": "/home/farshad/Documents/sgp4/passpredict/passpredict.cpp"
+}
+]
