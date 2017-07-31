@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/farshad/Documents/sgp4
+CMAKE_SOURCE_DIR = /home/farshad/sgp4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/farshad/Documents/sgp4
+CMAKE_BINARY_DIR = /home/farshad/sgp4
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/Documents/sgp4/CMakeFiles /home/farshad/Documents/sgp4/libsgp4/CMakeFiles/progress.marks
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/Documents/sgp4/CMakeFiles 0
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/sgp4/CMakeFiles /home/farshad/sgp4/libsgp4/CMakeFiles/progress.marks
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/sgp4/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/clean
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/preinstall
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/preinstall
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsgp4/CMakeFiles/sgp4.dir/rule:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/CMakeFiles/sgp4.dir/rule
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 libsgp4/CMakeFiles/sgp4.dir/rule
 .PHONY : libsgp4/CMakeFiles/sgp4.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sgp4: libsgp4/CMakeFiles/sgp4.dir/rule
 
 # fast build rule for target.
 sgp4/fast:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/build
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/build
 .PHONY : sgp4/fast
 
 CoordGeodetic.o: CoordGeodetic.cpp.o
@@ -131,7 +131,7 @@ CoordGeodetic.o: CoordGeodetic.cpp.o
 
 # target to build an object file
 CoordGeodetic.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o
 .PHONY : CoordGeodetic.cpp.o
 
 CoordGeodetic.i: CoordGeodetic.cpp.i
@@ -140,7 +140,7 @@ CoordGeodetic.i: CoordGeodetic.cpp.i
 
 # target to preprocess a source file
 CoordGeodetic.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.i
 .PHONY : CoordGeodetic.cpp.i
 
 CoordGeodetic.s: CoordGeodetic.cpp.s
@@ -149,7 +149,7 @@ CoordGeodetic.s: CoordGeodetic.cpp.s
 
 # target to generate assembly for a file
 CoordGeodetic.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.s
 .PHONY : CoordGeodetic.cpp.s
 
 CoordTopocentric.o: CoordTopocentric.cpp.o
@@ -158,7 +158,7 @@ CoordTopocentric.o: CoordTopocentric.cpp.o
 
 # target to build an object file
 CoordTopocentric.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o
 .PHONY : CoordTopocentric.cpp.o
 
 CoordTopocentric.i: CoordTopocentric.cpp.i
@@ -167,7 +167,7 @@ CoordTopocentric.i: CoordTopocentric.cpp.i
 
 # target to preprocess a source file
 CoordTopocentric.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.i
 .PHONY : CoordTopocentric.cpp.i
 
 CoordTopocentric.s: CoordTopocentric.cpp.s
@@ -176,7 +176,7 @@ CoordTopocentric.s: CoordTopocentric.cpp.s
 
 # target to generate assembly for a file
 CoordTopocentric.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.s
 .PHONY : CoordTopocentric.cpp.s
 
 DateTime.o: DateTime.cpp.o
@@ -185,7 +185,7 @@ DateTime.o: DateTime.cpp.o
 
 # target to build an object file
 DateTime.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o
 .PHONY : DateTime.cpp.o
 
 DateTime.i: DateTime.cpp.i
@@ -194,7 +194,7 @@ DateTime.i: DateTime.cpp.i
 
 # target to preprocess a source file
 DateTime.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.i
 .PHONY : DateTime.cpp.i
 
 DateTime.s: DateTime.cpp.s
@@ -203,7 +203,7 @@ DateTime.s: DateTime.cpp.s
 
 # target to generate assembly for a file
 DateTime.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.s
 .PHONY : DateTime.cpp.s
 
 DecayedException.o: DecayedException.cpp.o
@@ -212,7 +212,7 @@ DecayedException.o: DecayedException.cpp.o
 
 # target to build an object file
 DecayedException.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o
 .PHONY : DecayedException.cpp.o
 
 DecayedException.i: DecayedException.cpp.i
@@ -221,7 +221,7 @@ DecayedException.i: DecayedException.cpp.i
 
 # target to preprocess a source file
 DecayedException.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.i
 .PHONY : DecayedException.cpp.i
 
 DecayedException.s: DecayedException.cpp.s
@@ -230,7 +230,7 @@ DecayedException.s: DecayedException.cpp.s
 
 # target to generate assembly for a file
 DecayedException.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.s
 .PHONY : DecayedException.cpp.s
 
 Eci.o: Eci.cpp.o
@@ -239,7 +239,7 @@ Eci.o: Eci.cpp.o
 
 # target to build an object file
 Eci.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o
 .PHONY : Eci.cpp.o
 
 Eci.i: Eci.cpp.i
@@ -248,7 +248,7 @@ Eci.i: Eci.cpp.i
 
 # target to preprocess a source file
 Eci.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.i
 .PHONY : Eci.cpp.i
 
 Eci.s: Eci.cpp.s
@@ -257,7 +257,7 @@ Eci.s: Eci.cpp.s
 
 # target to generate assembly for a file
 Eci.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.s
 .PHONY : Eci.cpp.s
 
 Globals.o: Globals.cpp.o
@@ -266,7 +266,7 @@ Globals.o: Globals.cpp.o
 
 # target to build an object file
 Globals.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o
 .PHONY : Globals.cpp.o
 
 Globals.i: Globals.cpp.i
@@ -275,7 +275,7 @@ Globals.i: Globals.cpp.i
 
 # target to preprocess a source file
 Globals.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.i
 .PHONY : Globals.cpp.i
 
 Globals.s: Globals.cpp.s
@@ -284,7 +284,7 @@ Globals.s: Globals.cpp.s
 
 # target to generate assembly for a file
 Globals.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.s
 .PHONY : Globals.cpp.s
 
 Observer.o: Observer.cpp.o
@@ -293,7 +293,7 @@ Observer.o: Observer.cpp.o
 
 # target to build an object file
 Observer.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o
 .PHONY : Observer.cpp.o
 
 Observer.i: Observer.cpp.i
@@ -302,7 +302,7 @@ Observer.i: Observer.cpp.i
 
 # target to preprocess a source file
 Observer.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.i
 .PHONY : Observer.cpp.i
 
 Observer.s: Observer.cpp.s
@@ -311,7 +311,7 @@ Observer.s: Observer.cpp.s
 
 # target to generate assembly for a file
 Observer.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.s
 .PHONY : Observer.cpp.s
 
 OrbitalElements.o: OrbitalElements.cpp.o
@@ -320,7 +320,7 @@ OrbitalElements.o: OrbitalElements.cpp.o
 
 # target to build an object file
 OrbitalElements.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o
 .PHONY : OrbitalElements.cpp.o
 
 OrbitalElements.i: OrbitalElements.cpp.i
@@ -329,7 +329,7 @@ OrbitalElements.i: OrbitalElements.cpp.i
 
 # target to preprocess a source file
 OrbitalElements.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.i
 .PHONY : OrbitalElements.cpp.i
 
 OrbitalElements.s: OrbitalElements.cpp.s
@@ -338,7 +338,7 @@ OrbitalElements.s: OrbitalElements.cpp.s
 
 # target to generate assembly for a file
 OrbitalElements.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.s
 .PHONY : OrbitalElements.cpp.s
 
 SGP4.o: SGP4.cpp.o
@@ -347,7 +347,7 @@ SGP4.o: SGP4.cpp.o
 
 # target to build an object file
 SGP4.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o
 .PHONY : SGP4.cpp.o
 
 SGP4.i: SGP4.cpp.i
@@ -356,7 +356,7 @@ SGP4.i: SGP4.cpp.i
 
 # target to preprocess a source file
 SGP4.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.i
 .PHONY : SGP4.cpp.i
 
 SGP4.s: SGP4.cpp.s
@@ -365,7 +365,7 @@ SGP4.s: SGP4.cpp.s
 
 # target to generate assembly for a file
 SGP4.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.s
 .PHONY : SGP4.cpp.s
 
 SatelliteException.o: SatelliteException.cpp.o
@@ -374,7 +374,7 @@ SatelliteException.o: SatelliteException.cpp.o
 
 # target to build an object file
 SatelliteException.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o
 .PHONY : SatelliteException.cpp.o
 
 SatelliteException.i: SatelliteException.cpp.i
@@ -383,7 +383,7 @@ SatelliteException.i: SatelliteException.cpp.i
 
 # target to preprocess a source file
 SatelliteException.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.i
 .PHONY : SatelliteException.cpp.i
 
 SatelliteException.s: SatelliteException.cpp.s
@@ -392,7 +392,7 @@ SatelliteException.s: SatelliteException.cpp.s
 
 # target to generate assembly for a file
 SatelliteException.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.s
 .PHONY : SatelliteException.cpp.s
 
 SolarPosition.o: SolarPosition.cpp.o
@@ -401,7 +401,7 @@ SolarPosition.o: SolarPosition.cpp.o
 
 # target to build an object file
 SolarPosition.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o
 .PHONY : SolarPosition.cpp.o
 
 SolarPosition.i: SolarPosition.cpp.i
@@ -410,7 +410,7 @@ SolarPosition.i: SolarPosition.cpp.i
 
 # target to preprocess a source file
 SolarPosition.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.i
 .PHONY : SolarPosition.cpp.i
 
 SolarPosition.s: SolarPosition.cpp.s
@@ -419,7 +419,7 @@ SolarPosition.s: SolarPosition.cpp.s
 
 # target to generate assembly for a file
 SolarPosition.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.s
 .PHONY : SolarPosition.cpp.s
 
 TimeSpan.o: TimeSpan.cpp.o
@@ -428,7 +428,7 @@ TimeSpan.o: TimeSpan.cpp.o
 
 # target to build an object file
 TimeSpan.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o
 .PHONY : TimeSpan.cpp.o
 
 TimeSpan.i: TimeSpan.cpp.i
@@ -437,7 +437,7 @@ TimeSpan.i: TimeSpan.cpp.i
 
 # target to preprocess a source file
 TimeSpan.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.i
 .PHONY : TimeSpan.cpp.i
 
 TimeSpan.s: TimeSpan.cpp.s
@@ -446,7 +446,7 @@ TimeSpan.s: TimeSpan.cpp.s
 
 # target to generate assembly for a file
 TimeSpan.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.s
 .PHONY : TimeSpan.cpp.s
 
 Tle.o: Tle.cpp.o
@@ -455,7 +455,7 @@ Tle.o: Tle.cpp.o
 
 # target to build an object file
 Tle.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o
 .PHONY : Tle.cpp.o
 
 Tle.i: Tle.cpp.i
@@ -464,7 +464,7 @@ Tle.i: Tle.cpp.i
 
 # target to preprocess a source file
 Tle.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.i
 .PHONY : Tle.cpp.i
 
 Tle.s: Tle.cpp.s
@@ -473,7 +473,7 @@ Tle.s: Tle.cpp.s
 
 # target to generate assembly for a file
 Tle.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.s
 .PHONY : Tle.cpp.s
 
 TleException.o: TleException.cpp.o
@@ -482,7 +482,7 @@ TleException.o: TleException.cpp.o
 
 # target to build an object file
 TleException.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o
 .PHONY : TleException.cpp.o
 
 TleException.i: TleException.cpp.i
@@ -491,7 +491,7 @@ TleException.i: TleException.cpp.i
 
 # target to preprocess a source file
 TleException.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.i
 .PHONY : TleException.cpp.i
 
 TleException.s: TleException.cpp.s
@@ -500,7 +500,7 @@ TleException.s: TleException.cpp.s
 
 # target to generate assembly for a file
 TleException.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.s
 .PHONY : TleException.cpp.s
 
 Util.o: Util.cpp.o
@@ -509,7 +509,7 @@ Util.o: Util.cpp.o
 
 # target to build an object file
 Util.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o
 .PHONY : Util.cpp.o
 
 Util.i: Util.cpp.i
@@ -518,7 +518,7 @@ Util.i: Util.cpp.i
 
 # target to preprocess a source file
 Util.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Util.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Util.cpp.i
 .PHONY : Util.cpp.i
 
 Util.s: Util.cpp.s
@@ -527,7 +527,7 @@ Util.s: Util.cpp.s
 
 # target to generate assembly for a file
 Util.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Util.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Util.cpp.s
 .PHONY : Util.cpp.s
 
 Vector.o: Vector.cpp.o
@@ -536,7 +536,7 @@ Vector.o: Vector.cpp.o
 
 # target to build an object file
 Vector.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o
 .PHONY : Vector.cpp.o
 
 Vector.i: Vector.cpp.i
@@ -545,7 +545,7 @@ Vector.i: Vector.cpp.i
 
 # target to preprocess a source file
 Vector.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.i
 .PHONY : Vector.cpp.i
 
 Vector.s: Vector.cpp.s
@@ -554,7 +554,7 @@ Vector.s: Vector.cpp.s
 
 # target to generate assembly for a file
 Vector.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f libsgp4/CMakeFiles/sgp4.dir/build.make libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.s
 .PHONY : Vector.cpp.s
 
 # Help Target
@@ -625,6 +625,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

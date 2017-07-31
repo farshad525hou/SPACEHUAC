@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/farshad/Documents/sgp4/sattrack/sattrack.cpp
+/home/farshad/sgp4/sattrack/sattrack.cpp
 CoordTopocentric.h
 -
 CoordGeodetic.h

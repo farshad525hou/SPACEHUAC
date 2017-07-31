@@ -1,4 +1,4 @@
-# Install script for directory: /home/farshad/Documents/sgp4/sattrack
+# Install script for directory: /home/farshad/sgp4/sattrack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

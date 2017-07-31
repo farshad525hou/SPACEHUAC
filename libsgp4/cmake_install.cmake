@@ -1,4 +1,4 @@
-# Install script for directory: /home/farshad/Documents/sgp4/libsgp4
+# Install script for directory: /home/farshad/sgp4/libsgp4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

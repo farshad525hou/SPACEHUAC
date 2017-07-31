@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.cpp
+/home/farshad/sgp4/libsgp4/CoordGeodetic.cpp
 CoordGeodetic.h
-/home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.h
+/home/farshad/sgp4/libsgp4/CoordGeodetic.h
 
-/home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.h
+/home/farshad/sgp4/libsgp4/CoordGeodetic.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 string
 -
 sstream
@@ -20,13 +20,13 @@ sstream
 iomanip
 -
 
-/home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.cpp
+/home/farshad/sgp4/libsgp4/CoordTopocentric.cpp
 CoordTopocentric.h
-/home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.h
+/home/farshad/sgp4/libsgp4/CoordTopocentric.h
 
-/home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.h
+/home/farshad/sgp4/libsgp4/CoordTopocentric.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 string
 -
 sstream
@@ -34,11 +34,11 @@ sstream
 iomanip
 -
 
-/home/farshad/Documents/sgp4/libsgp4/DateTime.cpp
+/home/farshad/sgp4/libsgp4/DateTime.cpp
 DateTime.h
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 iomanip
 -
 iostream
@@ -48,131 +48,131 @@ sstream
 stdint.h
 -
 TimeSpan.h
-/home/farshad/Documents/sgp4/libsgp4/TimeSpan.h
+/home/farshad/sgp4/libsgp4/TimeSpan.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 
-/home/farshad/Documents/sgp4/libsgp4/DecayedException.cpp
+/home/farshad/sgp4/libsgp4/DecayedException.cpp
 DecayedException.h
-/home/farshad/Documents/sgp4/libsgp4/DecayedException.h
+/home/farshad/sgp4/libsgp4/DecayedException.h
 
-/home/farshad/Documents/sgp4/libsgp4/DecayedException.h
+/home/farshad/sgp4/libsgp4/DecayedException.h
 DateTime.h
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 Vector.h
-/home/farshad/Documents/sgp4/libsgp4/Vector.h
+/home/farshad/sgp4/libsgp4/Vector.h
 stdexcept
 -
 string
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Eci.cpp
+/home/farshad/sgp4/libsgp4/Eci.cpp
 Eci.h
-/home/farshad/Documents/sgp4/libsgp4/Eci.h
+/home/farshad/sgp4/libsgp4/Eci.h
 Globals.h
-/home/farshad/Documents/sgp4/libsgp4/Globals.h
+/home/farshad/sgp4/libsgp4/Globals.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 
-/home/farshad/Documents/sgp4/libsgp4/Eci.h
+/home/farshad/sgp4/libsgp4/Eci.h
 CoordGeodetic.h
-/home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.h
+/home/farshad/sgp4/libsgp4/CoordGeodetic.h
 Vector.h
-/home/farshad/Documents/sgp4/libsgp4/Vector.h
+/home/farshad/sgp4/libsgp4/Vector.h
 DateTime.h
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 
-/home/farshad/Documents/sgp4/libsgp4/Globals.cpp
+/home/farshad/sgp4/libsgp4/Globals.cpp
 Globals.h
-/home/farshad/Documents/sgp4/libsgp4/Globals.h
+/home/farshad/sgp4/libsgp4/Globals.h
 
-/home/farshad/Documents/sgp4/libsgp4/Globals.h
+/home/farshad/sgp4/libsgp4/Globals.h
 cmath
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Observer.cpp
+/home/farshad/sgp4/libsgp4/Observer.cpp
 Observer.h
-/home/farshad/Documents/sgp4/libsgp4/Observer.h
+/home/farshad/sgp4/libsgp4/Observer.h
 CoordTopocentric.h
-/home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.h
+/home/farshad/sgp4/libsgp4/CoordTopocentric.h
 
-/home/farshad/Documents/sgp4/libsgp4/Observer.h
+/home/farshad/sgp4/libsgp4/Observer.h
 CoordGeodetic.h
-/home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.h
+/home/farshad/sgp4/libsgp4/CoordGeodetic.h
 Eci.h
-/home/farshad/Documents/sgp4/libsgp4/Eci.h
+/home/farshad/sgp4/libsgp4/Eci.h
 
-/home/farshad/Documents/sgp4/libsgp4/OrbitalElements.cpp
+/home/farshad/sgp4/libsgp4/OrbitalElements.cpp
 OrbitalElements.h
-/home/farshad/Documents/sgp4/libsgp4/OrbitalElements.h
+/home/farshad/sgp4/libsgp4/OrbitalElements.h
 Tle.h
-/home/farshad/Documents/sgp4/libsgp4/Tle.h
+/home/farshad/sgp4/libsgp4/Tle.h
 
-/home/farshad/Documents/sgp4/libsgp4/OrbitalElements.h
+/home/farshad/sgp4/libsgp4/OrbitalElements.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 DateTime.h
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 
-/home/farshad/Documents/sgp4/libsgp4/SGP4.cpp
+/home/farshad/sgp4/libsgp4/SGP4.cpp
 SGP4.h
-/home/farshad/Documents/sgp4/libsgp4/SGP4.h
+/home/farshad/sgp4/libsgp4/SGP4.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 Vector.h
-/home/farshad/Documents/sgp4/libsgp4/Vector.h
+/home/farshad/sgp4/libsgp4/Vector.h
 SatelliteException.h
-/home/farshad/Documents/sgp4/libsgp4/SatelliteException.h
+/home/farshad/sgp4/libsgp4/SatelliteException.h
 DecayedException.h
-/home/farshad/Documents/sgp4/libsgp4/DecayedException.h
+/home/farshad/sgp4/libsgp4/DecayedException.h
 cmath
 -
 iomanip
 -
 
-/home/farshad/Documents/sgp4/libsgp4/SGP4.h
+/home/farshad/sgp4/libsgp4/SGP4.h
 Tle.h
-/home/farshad/Documents/sgp4/libsgp4/Tle.h
+/home/farshad/sgp4/libsgp4/Tle.h
 OrbitalElements.h
-/home/farshad/Documents/sgp4/libsgp4/OrbitalElements.h
+/home/farshad/sgp4/libsgp4/OrbitalElements.h
 Eci.h
-/home/farshad/Documents/sgp4/libsgp4/Eci.h
+/home/farshad/sgp4/libsgp4/Eci.h
 SatelliteException.h
-/home/farshad/Documents/sgp4/libsgp4/SatelliteException.h
+/home/farshad/sgp4/libsgp4/SatelliteException.h
 DecayedException.h
-/home/farshad/Documents/sgp4/libsgp4/DecayedException.h
+/home/farshad/sgp4/libsgp4/DecayedException.h
 
-/home/farshad/Documents/sgp4/libsgp4/SatelliteException.cpp
+/home/farshad/sgp4/libsgp4/SatelliteException.cpp
 SatelliteException.h
-/home/farshad/Documents/sgp4/libsgp4/SatelliteException.h
+/home/farshad/sgp4/libsgp4/SatelliteException.h
 
-/home/farshad/Documents/sgp4/libsgp4/SatelliteException.h
+/home/farshad/sgp4/libsgp4/SatelliteException.h
 stdexcept
 -
 string
 -
 
-/home/farshad/Documents/sgp4/libsgp4/SolarPosition.cpp
+/home/farshad/sgp4/libsgp4/SolarPosition.cpp
 SolarPosition.h
-/home/farshad/Documents/sgp4/libsgp4/SolarPosition.h
+/home/farshad/sgp4/libsgp4/SolarPosition.h
 Globals.h
-/home/farshad/Documents/sgp4/libsgp4/Globals.h
+/home/farshad/sgp4/libsgp4/Globals.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 cmath
 -
 
-/home/farshad/Documents/sgp4/libsgp4/SolarPosition.h
+/home/farshad/sgp4/libsgp4/SolarPosition.h
 DateTime.h
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 Eci.h
-/home/farshad/Documents/sgp4/libsgp4/Eci.h
+/home/farshad/sgp4/libsgp4/Eci.h
 
-/home/farshad/Documents/sgp4/libsgp4/TimeSpan.cpp
+/home/farshad/sgp4/libsgp4/TimeSpan.cpp
 TimeSpan.h
-/home/farshad/Documents/sgp4/libsgp4/TimeSpan.h
+/home/farshad/sgp4/libsgp4/TimeSpan.h
 
-/home/farshad/Documents/sgp4/libsgp4/TimeSpan.h
+/home/farshad/sgp4/libsgp4/TimeSpan.h
 iostream
 -
 sstream
@@ -184,33 +184,33 @@ cmath
 stdint.h
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Tle.cpp
+/home/farshad/sgp4/libsgp4/Tle.cpp
 Tle.h
-/home/farshad/Documents/sgp4/libsgp4/Tle.h
+/home/farshad/sgp4/libsgp4/Tle.h
 locale
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Tle.h
+/home/farshad/sgp4/libsgp4/Tle.h
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 DateTime.h
-/home/farshad/Documents/sgp4/libsgp4/DateTime.h
+/home/farshad/sgp4/libsgp4/DateTime.h
 TleException.h
-/home/farshad/Documents/sgp4/libsgp4/TleException.h
+/home/farshad/sgp4/libsgp4/TleException.h
 
-/home/farshad/Documents/sgp4/libsgp4/TleException.cpp
+/home/farshad/sgp4/libsgp4/TleException.cpp
 TleException.h
-/home/farshad/Documents/sgp4/libsgp4/TleException.h
+/home/farshad/sgp4/libsgp4/TleException.h
 
-/home/farshad/Documents/sgp4/libsgp4/TleException.h
+/home/farshad/sgp4/libsgp4/TleException.h
 stdexcept
 -
 string
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Util.cpp
+/home/farshad/sgp4/libsgp4/Util.cpp
 Util.h
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 algorithm
 -
 locale
@@ -218,17 +218,17 @@ locale
 functional
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Util.h
+/home/farshad/sgp4/libsgp4/Util.h
 Globals.h
-/home/farshad/Documents/sgp4/libsgp4/Globals.h
+/home/farshad/sgp4/libsgp4/Globals.h
 sstream
 -
 
-/home/farshad/Documents/sgp4/libsgp4/Vector.cpp
+/home/farshad/sgp4/libsgp4/Vector.cpp
 Vector.h
-/home/farshad/Documents/sgp4/libsgp4/Vector.h
+/home/farshad/sgp4/libsgp4/Vector.h
 
-/home/farshad/Documents/sgp4/libsgp4/Vector.h
+/home/farshad/sgp4/libsgp4/Vector.h
 cmath
 -
 string

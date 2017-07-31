@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/farshad/Documents/sgp4/libsgp4 
+CXX_INCLUDES = -I/home/farshad/sgp4/libsgp4 
 

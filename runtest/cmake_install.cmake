@@ -1,4 +1,4 @@
-# Install script for directory: /home/farshad/Documents/sgp4/runtest
+# Install script for directory: /home/farshad/sgp4/runtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

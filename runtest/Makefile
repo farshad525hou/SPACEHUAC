@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/farshad/Documents/sgp4
+CMAKE_SOURCE_DIR = /home/farshad/sgp4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/farshad/Documents/sgp4
+CMAKE_BINARY_DIR = /home/farshad/sgp4
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/Documents/sgp4/CMakeFiles /home/farshad/Documents/sgp4/runtest/CMakeFiles/progress.marks
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/Documents/sgp4/CMakeFiles 0
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/sgp4/CMakeFiles /home/farshad/sgp4/runtest/CMakeFiles/progress.marks
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/farshad/sgp4/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/clean
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/preinstall
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/preinstall
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 runtest/CMakeFiles/runtest.dir/rule:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/CMakeFiles/runtest.dir/rule
+	cd /home/farshad/sgp4 && $(MAKE) -f CMakeFiles/Makefile2 runtest/CMakeFiles/runtest.dir/rule
 .PHONY : runtest/CMakeFiles/runtest.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ runtest: runtest/CMakeFiles/runtest.dir/rule
 
 # fast build rule for target.
 runtest/fast:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/build
+	cd /home/farshad/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/build
 .PHONY : runtest/fast
 
 runtest.o: runtest.cpp.o
@@ -131,7 +131,7 @@ runtest.o: runtest.cpp.o
 
 # target to build an object file
 runtest.cpp.o:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/runtest.cpp.o
+	cd /home/farshad/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/runtest.cpp.o
 .PHONY : runtest.cpp.o
 
 runtest.i: runtest.cpp.i
@@ -140,7 +140,7 @@ runtest.i: runtest.cpp.i
 
 # target to preprocess a source file
 runtest.cpp.i:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/runtest.cpp.i
+	cd /home/farshad/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/runtest.cpp.i
 .PHONY : runtest.cpp.i
 
 runtest.s: runtest.cpp.s
@@ -149,7 +149,7 @@ runtest.s: runtest.cpp.s
 
 # target to generate assembly for a file
 runtest.cpp.s:
-	cd /home/farshad/Documents/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/runtest.cpp.s
+	cd /home/farshad/sgp4 && $(MAKE) -f runtest/CMakeFiles/runtest.dir/build.make runtest/CMakeFiles/runtest.dir/runtest.cpp.s
 .PHONY : runtest.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

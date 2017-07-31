@@ -20,10 +20,14 @@
 #include <Util.h>
 #include <CoordTopocentric.h>
 #include <CoordGeodetic.h>
-
-#include <cmath>
+#include <fstream>
 #include <iostream>
+#include <cmath>
+#include <unistd.h>
 #include <list>
+#include <stdio.h>
+
+using namespace std;
 
 struct PassDetails
 {
@@ -339,13 +343,16 @@ std::list<struct PassDetails> GeneratePassList(
 
 int main()
 {
-    CoordGeodetic geo(42.640999, -71.316711, 0.00);
-    Tle tle("ISS (ZARYA)             ",
-        "1 25544U 98067A   17203.55542625  .00004406  00000-0  73541-4 0  9995",
-        "2 25544  51.6406 222.0221 0006189  61.6071  76.7295 15.54217108 67250");
+	ofstream Out;
+	Out.open("pass.txt");
+
+    CoordGeodetic geo(51.507406923983446, -0.12773752212524414, 0.05);
+    Tle tle("GALILEO-PFM (GSAT0101)  ",
+        "1 37846U 11060A   12293.53312491  .00000049  00000-0  00000-0 0  1435",
+        "2 37846  54.7963 119.5777 0000994 319.0618  40.9779  1.70474628  6204");
     SGP4 sgp4(tle);
 
-    std::cout << tle << std::endl;
+    std::cout<< tle << std::endl;
 
     /*
      * generate 7 day schedule
@@ -355,8 +362,8 @@ int main()
 
     std::list<struct PassDetails> pass_list;
 
-    std::cout << "Start time: " << start_date << std::endl;
-    std::cout << "End time  : " << end_date << std::endl << std::endl;
+   	Out << "Start time: " << start_date << std::endl;
+    	Out << "End time  : " << end_date << std::endl << std::endl;
 
     /*
      * generate passes
@@ -365,7 +372,7 @@ int main()
 
     if (pass_list.begin() == pass_list.end())
     {
-        std::cout << "No passes found" << std::endl;
+        Out << "No passes found" << std::endl;
     }
     else
     {
@@ -384,7 +391,7 @@ int main()
         }
         while (++itr != pass_list.end());
 
-        std::cout << ss.str();
+        Out << ss.str();
     }
 
     return 0;

@@ -1,4 +1,4 @@
-# Install script for directory: /home/farshad/Documents/sgp4/passpredict
+# Install script for directory: /home/farshad/sgp4/passpredict
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

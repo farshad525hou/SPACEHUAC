@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/farshad/Documents/sgp4
+CMAKE_SOURCE_DIR = /home/farshad/sgp4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/farshad/Documents/sgp4
+CMAKE_BINARY_DIR = /home/farshad/sgp4
 
 # Include any dependencies generated for this target.
 include libsgp4/CMakeFiles/sgp4.dir/depend.make
@@ -59,16 +59,16 @@ include libsgp4/CMakeFiles/sgp4.dir/flags.make
 
 libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o: libsgp4/CoordGeodetic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o -c /home/farshad/sgp4/libsgp4/CoordGeodetic.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/CoordGeodetic.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.cpp > CMakeFiles/sgp4.dir/CoordGeodetic.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/CoordGeodetic.cpp > CMakeFiles/sgp4.dir/CoordGeodetic.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/CoordGeodetic.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/CoordGeodetic.cpp -o CMakeFiles/sgp4.dir/CoordGeodetic.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/CoordGeodetic.cpp -o CMakeFiles/sgp4.dir/CoordGeodetic.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libsgp4/CMakeFiles/sgp4.dir/CoordGeodetic.cpp.o.provides.build: libsgp4/CMakeFil
 
 libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o: libsgp4/CoordTopocentric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o -c /home/farshad/sgp4/libsgp4/CoordTopocentric.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/CoordTopocentric.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.cpp > CMakeFiles/sgp4.dir/CoordTopocentric.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/CoordTopocentric.cpp > CMakeFiles/sgp4.dir/CoordTopocentric.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/CoordTopocentric.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/CoordTopocentric.cpp -o CMakeFiles/sgp4.dir/CoordTopocentric.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/CoordTopocentric.cpp -o CMakeFiles/sgp4.dir/CoordTopocentric.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libsgp4/CMakeFiles/sgp4.dir/CoordTopocentric.cpp.o.provides.build: libsgp4/CMake
 
 libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o: libsgp4/DateTime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/DateTime.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/DateTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/DateTime.cpp.o -c /home/farshad/sgp4/libsgp4/DateTime.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/DateTime.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/DateTime.cpp > CMakeFiles/sgp4.dir/DateTime.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/DateTime.cpp > CMakeFiles/sgp4.dir/DateTime.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/DateTime.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/DateTime.cpp -o CMakeFiles/sgp4.dir/DateTime.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/DateTime.cpp -o CMakeFiles/sgp4.dir/DateTime.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libsgp4/CMakeFiles/sgp4.dir/DateTime.cpp.o.provides.build: libsgp4/CMakeFiles/sg
 
 libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o: libsgp4/DecayedException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/DecayedException.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/DecayedException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/DecayedException.cpp.o -c /home/farshad/sgp4/libsgp4/DecayedException.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/DecayedException.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/DecayedException.cpp > CMakeFiles/sgp4.dir/DecayedException.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/DecayedException.cpp > CMakeFiles/sgp4.dir/DecayedException.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/DecayedException.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/DecayedException.cpp -o CMakeFiles/sgp4.dir/DecayedException.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/DecayedException.cpp -o CMakeFiles/sgp4.dir/DecayedException.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libsgp4/CMakeFiles/sgp4.dir/DecayedException.cpp.o.provides.build: libsgp4/CMake
 
 libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o: libsgp4/Eci.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Eci.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Eci.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Eci.cpp.o -c /home/farshad/sgp4/libsgp4/Eci.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/Eci.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/Eci.cpp > CMakeFiles/sgp4.dir/Eci.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/Eci.cpp > CMakeFiles/sgp4.dir/Eci.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/Eci.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/Eci.cpp -o CMakeFiles/sgp4.dir/Eci.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/Eci.cpp -o CMakeFiles/sgp4.dir/Eci.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libsgp4/CMakeFiles/sgp4.dir/Eci.cpp.o.provides.build: libsgp4/CMakeFiles/sgp4.di
 
 libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o: libsgp4/Globals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Globals.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Globals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Globals.cpp.o -c /home/farshad/sgp4/libsgp4/Globals.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/Globals.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/Globals.cpp > CMakeFiles/sgp4.dir/Globals.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/Globals.cpp > CMakeFiles/sgp4.dir/Globals.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/Globals.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/Globals.cpp -o CMakeFiles/sgp4.dir/Globals.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/Globals.cpp -o CMakeFiles/sgp4.dir/Globals.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o.requires:
 
@@ -203,16 +203,16 @@ libsgp4/CMakeFiles/sgp4.dir/Globals.cpp.o.provides.build: libsgp4/CMakeFiles/sgp
 
 libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o: libsgp4/Observer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Observer.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Observer.cpp.o -c /home/farshad/sgp4/libsgp4/Observer.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/Observer.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/Observer.cpp > CMakeFiles/sgp4.dir/Observer.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/Observer.cpp > CMakeFiles/sgp4.dir/Observer.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/Observer.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/Observer.cpp -o CMakeFiles/sgp4.dir/Observer.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/Observer.cpp -o CMakeFiles/sgp4.dir/Observer.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o.requires:
 
@@ -227,16 +227,16 @@ libsgp4/CMakeFiles/sgp4.dir/Observer.cpp.o.provides.build: libsgp4/CMakeFiles/sg
 
 libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o: libsgp4/OrbitalElements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/OrbitalElements.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/OrbitalElements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/OrbitalElements.cpp.o -c /home/farshad/sgp4/libsgp4/OrbitalElements.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/OrbitalElements.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/OrbitalElements.cpp > CMakeFiles/sgp4.dir/OrbitalElements.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/OrbitalElements.cpp > CMakeFiles/sgp4.dir/OrbitalElements.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/OrbitalElements.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/OrbitalElements.cpp -o CMakeFiles/sgp4.dir/OrbitalElements.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/OrbitalElements.cpp -o CMakeFiles/sgp4.dir/OrbitalElements.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o.requires:
 
@@ -251,16 +251,16 @@ libsgp4/CMakeFiles/sgp4.dir/OrbitalElements.cpp.o.provides.build: libsgp4/CMakeF
 
 libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o: libsgp4/SGP4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/SGP4.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/SGP4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/SGP4.cpp.o -c /home/farshad/sgp4/libsgp4/SGP4.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/SGP4.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/SGP4.cpp > CMakeFiles/sgp4.dir/SGP4.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/SGP4.cpp > CMakeFiles/sgp4.dir/SGP4.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/SGP4.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/SGP4.cpp -o CMakeFiles/sgp4.dir/SGP4.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/SGP4.cpp -o CMakeFiles/sgp4.dir/SGP4.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o.requires:
 
@@ -275,16 +275,16 @@ libsgp4/CMakeFiles/sgp4.dir/SGP4.cpp.o.provides.build: libsgp4/CMakeFiles/sgp4.d
 
 libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o: libsgp4/SatelliteException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/SatelliteException.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/SatelliteException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/SatelliteException.cpp.o -c /home/farshad/sgp4/libsgp4/SatelliteException.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/SatelliteException.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/SatelliteException.cpp > CMakeFiles/sgp4.dir/SatelliteException.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/SatelliteException.cpp > CMakeFiles/sgp4.dir/SatelliteException.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/SatelliteException.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/SatelliteException.cpp -o CMakeFiles/sgp4.dir/SatelliteException.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/SatelliteException.cpp -o CMakeFiles/sgp4.dir/SatelliteException.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o.requires:
 
@@ -299,16 +299,16 @@ libsgp4/CMakeFiles/sgp4.dir/SatelliteException.cpp.o.provides.build: libsgp4/CMa
 
 libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o: libsgp4/SolarPosition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/SolarPosition.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/SolarPosition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/SolarPosition.cpp.o -c /home/farshad/sgp4/libsgp4/SolarPosition.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/SolarPosition.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/SolarPosition.cpp > CMakeFiles/sgp4.dir/SolarPosition.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/SolarPosition.cpp > CMakeFiles/sgp4.dir/SolarPosition.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/SolarPosition.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/SolarPosition.cpp -o CMakeFiles/sgp4.dir/SolarPosition.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/SolarPosition.cpp -o CMakeFiles/sgp4.dir/SolarPosition.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o.requires:
 
@@ -323,16 +323,16 @@ libsgp4/CMakeFiles/sgp4.dir/SolarPosition.cpp.o.provides.build: libsgp4/CMakeFil
 
 libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o: libsgp4/TimeSpan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/TimeSpan.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/TimeSpan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/TimeSpan.cpp.o -c /home/farshad/sgp4/libsgp4/TimeSpan.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/TimeSpan.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/TimeSpan.cpp > CMakeFiles/sgp4.dir/TimeSpan.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/TimeSpan.cpp > CMakeFiles/sgp4.dir/TimeSpan.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/TimeSpan.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/TimeSpan.cpp -o CMakeFiles/sgp4.dir/TimeSpan.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/TimeSpan.cpp -o CMakeFiles/sgp4.dir/TimeSpan.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o.requires:
 
@@ -347,16 +347,16 @@ libsgp4/CMakeFiles/sgp4.dir/TimeSpan.cpp.o.provides.build: libsgp4/CMakeFiles/sg
 
 libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o: libsgp4/Tle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Tle.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Tle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Tle.cpp.o -c /home/farshad/sgp4/libsgp4/Tle.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/Tle.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/Tle.cpp > CMakeFiles/sgp4.dir/Tle.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/Tle.cpp > CMakeFiles/sgp4.dir/Tle.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/Tle.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/Tle.cpp -o CMakeFiles/sgp4.dir/Tle.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/Tle.cpp -o CMakeFiles/sgp4.dir/Tle.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o.requires:
 
@@ -371,16 +371,16 @@ libsgp4/CMakeFiles/sgp4.dir/Tle.cpp.o.provides.build: libsgp4/CMakeFiles/sgp4.di
 
 libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o: libsgp4/TleException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/TleException.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/TleException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/TleException.cpp.o -c /home/farshad/sgp4/libsgp4/TleException.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/TleException.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/TleException.cpp > CMakeFiles/sgp4.dir/TleException.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/TleException.cpp > CMakeFiles/sgp4.dir/TleException.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/TleException.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/TleException.cpp -o CMakeFiles/sgp4.dir/TleException.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/TleException.cpp -o CMakeFiles/sgp4.dir/TleException.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o.requires:
 
@@ -395,16 +395,16 @@ libsgp4/CMakeFiles/sgp4.dir/TleException.cpp.o.provides.build: libsgp4/CMakeFile
 
 libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o: libsgp4/Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Util.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Util.cpp.o -c /home/farshad/sgp4/libsgp4/Util.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/Util.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/Util.cpp > CMakeFiles/sgp4.dir/Util.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/Util.cpp > CMakeFiles/sgp4.dir/Util.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/Util.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/Util.cpp -o CMakeFiles/sgp4.dir/Util.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/Util.cpp -o CMakeFiles/sgp4.dir/Util.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o.requires:
 
@@ -419,16 +419,16 @@ libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o.provides.build: libsgp4/CMakeFiles/sgp4.d
 
 libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o: libsgp4/CMakeFiles/sgp4.dir/flags.make
 libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o: libsgp4/Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Vector.cpp.o -c /home/farshad/Documents/sgp4/libsgp4/Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o"
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgp4.dir/Vector.cpp.o -c /home/farshad/sgp4/libsgp4/Vector.cpp
 
 libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgp4.dir/Vector.cpp.i"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/Documents/sgp4/libsgp4/Vector.cpp > CMakeFiles/sgp4.dir/Vector.cpp.i
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/farshad/sgp4/libsgp4/Vector.cpp > CMakeFiles/sgp4.dir/Vector.cpp.i
 
 libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgp4.dir/Vector.cpp.s"
-	cd /home/farshad/Documents/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/Documents/sgp4/libsgp4/Vector.cpp -o CMakeFiles/sgp4.dir/Vector.cpp.s
+	cd /home/farshad/sgp4/libsgp4 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/farshad/sgp4/libsgp4/Vector.cpp -o CMakeFiles/sgp4.dir/Vector.cpp.s
 
 libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o.requires:
 
@@ -481,9 +481,9 @@ libsgp4/libsgp4.a: libsgp4/CMakeFiles/sgp4.dir/Util.cpp.o
 libsgp4/libsgp4.a: libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o
 libsgp4/libsgp4.a: libsgp4/CMakeFiles/sgp4.dir/build.make
 libsgp4/libsgp4.a: libsgp4/CMakeFiles/sgp4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/farshad/Documents/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libsgp4.a"
-	cd /home/farshad/Documents/sgp4/libsgp4 && $(CMAKE_COMMAND) -P CMakeFiles/sgp4.dir/cmake_clean_target.cmake
-	cd /home/farshad/Documents/sgp4/libsgp4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sgp4.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/farshad/sgp4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libsgp4.a"
+	cd /home/farshad/sgp4/libsgp4 && $(CMAKE_COMMAND) -P CMakeFiles/sgp4.dir/cmake_clean_target.cmake
+	cd /home/farshad/sgp4/libsgp4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sgp4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libsgp4/CMakeFiles/sgp4.dir/build: libsgp4/libsgp4.a
@@ -510,10 +510,10 @@ libsgp4/CMakeFiles/sgp4.dir/requires: libsgp4/CMakeFiles/sgp4.dir/Vector.cpp.o.r
 .PHONY : libsgp4/CMakeFiles/sgp4.dir/requires
 
 libsgp4/CMakeFiles/sgp4.dir/clean:
-	cd /home/farshad/Documents/sgp4/libsgp4 && $(CMAKE_COMMAND) -P CMakeFiles/sgp4.dir/cmake_clean.cmake
+	cd /home/farshad/sgp4/libsgp4 && $(CMAKE_COMMAND) -P CMakeFiles/sgp4.dir/cmake_clean.cmake
 .PHONY : libsgp4/CMakeFiles/sgp4.dir/clean
 
 libsgp4/CMakeFiles/sgp4.dir/depend:
-	cd /home/farshad/Documents/sgp4 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/farshad/Documents/sgp4 /home/farshad/Documents/sgp4/libsgp4 /home/farshad/Documents/sgp4 /home/farshad/Documents/sgp4/libsgp4 /home/farshad/Documents/sgp4/libsgp4/CMakeFiles/sgp4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/farshad/sgp4 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/farshad/sgp4 /home/farshad/sgp4/libsgp4 /home/farshad/sgp4 /home/farshad/sgp4/libsgp4 /home/farshad/sgp4/libsgp4/CMakeFiles/sgp4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libsgp4/CMakeFiles/sgp4.dir/depend
 

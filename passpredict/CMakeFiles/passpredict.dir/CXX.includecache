@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/farshad/Documents/sgp4/passpredict/passpredict.cpp
+/home/farshad/sgp4/passpredict/passpredict.cpp
 Observer.h
 -
 SGP4.h
@@ -17,11 +17,17 @@ CoordTopocentric.h
 -
 CoordGeodetic.h
 -
-cmath
+fstream
 -
 iostream
 -
+cmath
+-
+unistd.h
+-
 list
+-
+stdio.h
 -
 
 libsgp4/CoordGeodetic.h
